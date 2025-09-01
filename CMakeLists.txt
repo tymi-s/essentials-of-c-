@@ -5,4 +5,12 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(Essentials_of_C__ main.cpp
         pointers.cpp
-        pointers.h)
+        pointers.h
+        arrays.cpp
+        arrays.h
+        MemoryAlocation.cpp
+        vectors.cpp
+        solution.h
+        solution.cpp
+        STL.h
+        STL.cpp)
