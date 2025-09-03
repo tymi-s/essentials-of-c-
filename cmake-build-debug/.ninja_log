@@ -1,16 +1,10 @@
 # ninja log v5
 38	1153	7783893703404387	CMakeFiles/Essentials_of_C__.dir/MemoryAlocation.cpp.obj	80e66a9e81feb3ce
-33	782	7785355310880709	CMakeFiles/Essentials_of_C__.dir/main.cpp.obj	fca3397aa5930c60
-783	963	7785355312642996	Essentials_of_C__.exe	73ab9ac06f907c5e
+25	808	7785357877463356	CMakeFiles/Essentials_of_C__.dir/main.cpp.obj	fca3397aa5930c60
+808	992	7785357879267085	Essentials_of_C__.exe	73ab9ac06f907c5e
 53	792	7783457451955990	CMakeFiles/Essentials_of_C__.dir/pointers.cpp.obj	9bd21a31f0890c49
-19	399	7784418647049012	build.ninja	1530d93f8d38dd2e
+19	399	7786072800304130	build.ninja	1530d93f8d38dd2e
 42	1120	7784599650548754	CMakeFiles/Essentials_of_C__.dir/solution.cpp.obj	82f6342301708667
 88	1128	7785352226416503	CMakeFiles/Essentials_of_C__.dir/vectors.cpp.obj	72391f7cdd0a7ecc
 36	645	7784559501740541	CMakeFiles/Essentials_of_C__.dir/arrays.cpp.obj	bf190699f1e92ec4
 31	869	7784456235785144	CMakeFiles/Essentials_of_C__.dir/STL.cpp.obj	9f005366c2315c9b
-32	897	7785357390041715	CMakeFiles/Essentials_of_C__.dir/main.cpp.obj	fca3397aa5930c60
-897	1088	7785357391915913	Essentials_of_C__.exe	73ab9ac06f907c5e
-24	838	7785357707832168	CMakeFiles/Essentials_of_C__.dir/main.cpp.obj	fca3397aa5930c60
-839	1017	7785357709564073	Essentials_of_C__.exe	73ab9ac06f907c5e
-25	808	7785357877463356	CMakeFiles/Essentials_of_C__.dir/main.cpp.obj	fca3397aa5930c60
-808	992	7785357879267085	Essentials_of_C__.exe	73ab9ac06f907c5e
