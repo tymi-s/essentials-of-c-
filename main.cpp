@@ -21,7 +21,7 @@ int main() {
 //    vectors();
 //    solution();
 //    STL();
-
+    algorithms();
 
 
     return 0;

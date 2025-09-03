@@ -49,12 +49,35 @@ bool is_pallindrom(int x){
     reverse(reversed.begin(),reversed.end());
     return reversed == y;
 }
+int binary_search(vector<int> table,int target){
+    int left = 0;
+    int right = size(table)-1;
 
-void algorirthms(){
-    liczenie_unikalnych_znakow("aaaaa bbbb- cccc! -- d");
-    set_unikalne_znaki("aaaaa bbbb- cccc! -- d");
-    cout << "\n\n"<<is_pallindrom(121);
+    while(left<right){
 
+        int mid = (left+right)/2;
+
+        if(target<table[mid]){
+            right=mid-1;
+        }
+        else if(target>table[mid]){
+            left = mid+1;
+        }
+        else if(target == table[mid]) {
+            cout << "\nZNALEZNIONO!\n Indeks: ";
+            return mid;
+        }
+
+    }
+    cout << "\nNIE ZNALEZNIONO!\n";
+    return -1;
+}
+void algorithms(){
+//    liczenie_unikalnych_znakow("aaaaa bbbb- cccc! -- d");
+//    set_unikalne_znaki("aaaaa bbbb- cccc! -- d");
+//    cout << "\n\n"<<is_pallindrom(121);
+    vector<int> z={1,3,5,7,11,13,17,19,23};
+    cout << binary_search(z,17);
 }
 
 
