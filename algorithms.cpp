@@ -58,7 +58,9 @@ linked_list* merging_sorted_lists(linked_list*& list1,linked_list*& list2){
     }
     return tmp.next;
 }
+
 ///////////////////////////////////////////////// BST TREE //////////////////////////////////////////////////////////////////////////
+
 struct BST{
     BST* lewo;
     BST* prawo;
@@ -114,7 +116,9 @@ void print_inorder(BST*& korzen){
     cout<< korzen->wartosc<<"->";
     print_inorder(korzen->prawo);
 }
+
 ///////////////////////////////////////////////// OTHER ALGORITHMS //////////////////////////////////////////////////////////////////////////
+
 int liczenie_unikalnych_znakow(string string1) {
     cout << "\nSTRING:   " << string1;
 
@@ -183,6 +187,25 @@ int binary_search(vector<int> table,int target){
     cout << "\nNIE ZNALEZNIONO!\n";
     return -1;
 }
+ /////////////////////////////////////////////////// GRAF METHODS ////////////////////////////////////////////////////////////////////////
+
+ void print_graf(int** graf,int size){
+     for (int i =0; i<size;i++){
+     for(int j = 0; j <size;j++){
+         cout << graf[i][j] << " ";
+     }
+     cout<<"\n";
+ }
+}
+ void the_floor_game(int** graf,int size){
+
+    cout << "\n\n=========================== WELCOME TO THE GAME ===========================\n\n";
+    int x = rand() %11;
+    int y = rand() %11;
+    cout << "WYLOSOWANO GRACZA ["<<x<<"]"<<"["<<y<<"]\n" ;
+    graf[x][y] = 1;
+    print_graf(graf,size);
+}
 
 ///////////////////////////////////////////////// MAIN //////////////////////////////////////////////////////////////////////////
 void algorithms(){
@@ -205,17 +228,31 @@ void algorithms(){
 //    nowy_wezel(korzen,100);
 //    finding_value(korzen,13);
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    linked_list* list = nullptr;
-    nowy_element_listy(list,1);
-    nowy_element_listy(list,3);
-    nowy_element_listy(list,17);
-    nowy_element_listy(list,13);
-    nowy_element_listy(list,23);
-    print_list(list);
-
-
-    delete list;
+//    linked_list* list = nullptr;
+//    nowy_element_listy(list,1);
+//    nowy_element_listy(list,3);
+//    nowy_element_listy(list,17);
+//    nowy_element_listy(list,13);
+//    nowy_element_listy(list,23);
+//    print_list(list);
+//
+//
+//    delete list;
 //    delete korzen;
+
+ //////////////////////////////////////////////////////// GRAFY ///////////////////////////////////////////////////////////////////:
+
+ int size =10;
+ int** graf = new int*[size];
+ for(int i =0; i <size;i++){
+     graf[i] = new int[size]{0};
+ }
+    print_graf(graf,size);
+    for(int i =0; i<15;i++){
+        the_floor_game(graf,size);
+    }
+
+
 
 }
 

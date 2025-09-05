@@ -15,4 +15,6 @@ add_executable(Essentials_of_C__ main.cpp
         STL.h
         STL.cpp
         algorythms.h
-        algorithms.cpp)
+        algorithms.cpp
+        REVISION.h
+        REVISION.cpp)

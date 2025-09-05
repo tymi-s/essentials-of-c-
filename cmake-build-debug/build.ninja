@@ -97,6 +97,12 @@ build CMakeFiles/Essentials_of_C__.dir/algorithms.cpp.obj: CXX_COMPILER__Essenti
   OBJECT_DIR = CMakeFiles\Essentials_of_C__.dir
   OBJECT_FILE_DIR = CMakeFiles\Essentials_of_C__.dir
 
+build CMakeFiles/Essentials_of_C__.dir/REVISION.cpp.obj: CXX_COMPILER__Essentials_of_C___unscanned_Debug C$:/Users/Tymon/CLionProjects/Essentials-of-C++/REVISION.cpp || cmake_object_order_depends_target_Essentials_of_C__
+  DEP_FILE = CMakeFiles\Essentials_of_C__.dir\REVISION.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Essentials_of_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Essentials_of_C__.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Essentials_of_C__
@@ -105,7 +111,7 @@ build CMakeFiles/Essentials_of_C__.dir/algorithms.cpp.obj: CXX_COMPILER__Essenti
 #############################################
 # Link the executable Essentials_of_C__.exe
 
-build Essentials_of_C__.exe: CXX_EXECUTABLE_LINKER__Essentials_of_C___Debug CMakeFiles/Essentials_of_C__.dir/main.cpp.obj CMakeFiles/Essentials_of_C__.dir/pointers.cpp.obj CMakeFiles/Essentials_of_C__.dir/arrays.cpp.obj CMakeFiles/Essentials_of_C__.dir/MemoryAlocation.cpp.obj CMakeFiles/Essentials_of_C__.dir/vectors.cpp.obj CMakeFiles/Essentials_of_C__.dir/solution.cpp.obj CMakeFiles/Essentials_of_C__.dir/STL.cpp.obj CMakeFiles/Essentials_of_C__.dir/algorithms.cpp.obj
+build Essentials_of_C__.exe: CXX_EXECUTABLE_LINKER__Essentials_of_C___Debug CMakeFiles/Essentials_of_C__.dir/main.cpp.obj CMakeFiles/Essentials_of_C__.dir/pointers.cpp.obj CMakeFiles/Essentials_of_C__.dir/arrays.cpp.obj CMakeFiles/Essentials_of_C__.dir/MemoryAlocation.cpp.obj CMakeFiles/Essentials_of_C__.dir/vectors.cpp.obj CMakeFiles/Essentials_of_C__.dir/solution.cpp.obj CMakeFiles/Essentials_of_C__.dir/STL.cpp.obj CMakeFiles/Essentials_of_C__.dir/algorithms.cpp.obj CMakeFiles/Essentials_of_C__.dir/REVISION.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Essentials_of_C__.dir

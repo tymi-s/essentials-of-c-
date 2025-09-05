@@ -10,7 +10,7 @@ using namespace std;
 #include <algorithm>
 #include <set>
 #include "algorythms.h"
-
+#include "REVISION.h"
 
 
 
@@ -21,8 +21,8 @@ int main() {
 //    vectors();
 //    solution();
 //    STL();
-    algorithms();
-
+//    algorithms();
+    REVISION();
 
     return 0;
 }
