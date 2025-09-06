@@ -620,4 +620,5 @@ vector<int>next_element(vector<int> table){
         }
         stack.push(i);
     }
+    //ale jestem sigmą
 }
